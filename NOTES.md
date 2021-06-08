@@ -1,5 +1,5 @@
-Pagrindine uzduotys
-[x] Panaudoti Javascript "use-strict" režimą.
+# Pagrindine uzduotys
+[ x ] Panaudoti Javascript "use-strict" režimą.
 
 [x] Apsirašyti 4 kintamuosius: skaicius1, skaicius2, skaicius3, skaicius4.
 
