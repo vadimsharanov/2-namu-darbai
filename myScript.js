@@ -4,6 +4,7 @@
 
 //2. Kintamuju aprasymas.
 
+
 var skaicius1, skaicius2, skaicius3, skaicius4;
 skaicius1 = 10;
 skaicius2 = 20;
@@ -38,12 +39,18 @@ skaicius1 = skaicius2;
 skaicius2 = laikinasis_kintamasis;
 
 // 6. Rezultatu isvedimas i alert.
+
+function myFunction1() {
 alert(" Po sukeitimu skaicius1 =  " +  skaicius1);
 alert(" Po sukeitimu skaicius2 =  " +  skaicius2);
+}
 
 [skaicius3,skaicius4] = [skaicius4,skaicius3];
-alert(" Po sukeitimu skaicius3 =  " +  skaicius3);
-alert(" Po sukeitimu skaicius4 =  " +  skaicius4);
+function myFunction2() {
+    alert(" Po sukeitimu skaicius3 =  " +  skaicius3);
+    alert(" Po sukeitimu skaicius4 =  " +  skaicius4);
+    }
+
 
 // 7. maxSkaicius
 var maxSkaicius = Number.MAX_VALUE;
@@ -71,4 +78,6 @@ skaicius5 = skaicius5 ^ skaicius6;
 // 3. Rezultato patalpinimas HTML dokumeno div zymeje.
 
 document.write("Po sukeitimu, skaicius5 = ", skaicius5, ", ", "skaicius6= ",  skaicius6, ".");
+
+
 
