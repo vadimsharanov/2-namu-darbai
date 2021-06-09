@@ -70,5 +70,5 @@ skaicius5 = skaicius5 ^ skaicius6;
 
 // 3. Rezultato patalpinimas HTML dokumeno div zymeje.
 
-document.write(skaicius5, ",", skaicius6);
+document.write("Po sukeitimu, skaicius5 = ", skaicius5, ", ", "skaicius6= ",  skaicius6, ".");
 
